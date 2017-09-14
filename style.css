@@ -1,4 +1,7 @@
-/* Defaults */
+/* 
+ * Some Default Styles are provided for your convenience. 
+ * You can start adding your own CSS below line 60.
+ */
 
 body {
   margin: 0;
@@ -19,22 +22,17 @@ h2 {
   font-weight: normal;
 }
 
-h1,
-h2,
-h3,
-nav {
+h1, h2, h3, nav {
   font-family: "Saira Extra Condensed", sans-serif;
 }
 
 /* Responsive images */
-
 img {
   max-width: 100%;
   height: auto;
 }
 
 /* Default section styling */
-
 section {
   position: relative;
   width: 100vw;
@@ -57,7 +55,10 @@ section h2:after {
 }
 
 /* Header defaults */
-
 header {
   background-color: rgba(37, 37, 37, 0.8);
 }
+
+/* 
+ * YOUR CSS:
+ */
