@@ -13,8 +13,14 @@ function createBook (id1, title1, author1, price1) {
         return title1 + " by " + author1;
       },
       addRating(rate){
-        rating.push(rate);
-        return rating;
+        this.rating.push(rate);
+      },
+      getRating(){
+        totRatings = this.rating.length;
+        totStars = this.rating.join('').length;
+        return (totStars / totRatings);
       }
     }
   }
+
+const createBookProtoProp = createBook.prototype;
