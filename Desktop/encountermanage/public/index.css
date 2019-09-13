@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif;
+  color: black
+}
+
+body {
+  background: url(https://i.pinimg.com/originals/dc/ef/f6/dceff6eb8639f46f68f25c36125bdbeb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+header {
+  align-items: center;
+  color: #c0c0c0;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+  justify-content: space-evenly;
+  border-bottom: 2px solid black;
+}
+
+select {
+  display: inline
+}
+.new-project-form {
+   display: flex;
+   flex-direction: row;
+   border-bottom: 2px solid black;
+ }
+
+ .warning {
+  padding: 2px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  background-color: red;
+  color: white;
+}
+
+#sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background: url(https://i.pinimg.com/originals/dc/ef/f6/dceff6eb8639f46f68f25c36125bdbeb.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  max-height: 100px;
+  max-width: 100px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
