@@ -19,6 +19,6 @@
   "homepage": "https://github.com/FullstackAcademy/foundations-checkpoint-pt-1#readme",
   "dependencies": {},
   "devDependencies": {
-    "testem": "^2.14.0"
+    "testem": "^3.9.0"
   }
 }
